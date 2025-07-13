@@ -50,7 +50,7 @@ a {
   align-items: center;
 }
 
-.btn{
+.btn {
   padding: .8rem 1.7rem;
   font-size: 1rem;
   color: hsla(0, 0%, 100%, 0.75);
@@ -65,13 +65,13 @@ a {
   height: 200vh;
   background-image: url(./assets/bg.png);
   background-repeat: no-repeat;
-  background-size:  100% 115%;
+  background-size: 100% 115%;
 }
 
 nav {
   width: 95%;
   height: 8%;
-  border-radius:  0 0 .5rem .5rem;
+  border-radius: 0 0 .5rem .5rem;
   justify-content: space-between;
   background-color: hsla(120, 100%, 25%, 0.15);
   backdrop-filter: blur(5px);
@@ -101,7 +101,8 @@ ul {
   justify-content: space-between;
   font-size: 1.2rem;
 }
-ul a{
+
+ul a {
   color: hsla(0, 0%, 100%, 0.75);
 }
 
@@ -112,13 +113,16 @@ ul a{
   color: hsla(0, 0%, 100%, 0.75);
   margin-right: .8rem;
 }
-.fakeDiv{
+
+.fakeDiv {
   height: 4.7%;
 }
-.bannerPage main{
+
+.bannerPage main {
   height: 45%;
 }
-.personalDiv{
+
+.personalDiv {
   width: 60%;
   height: 100%;
   margin-left: 2rem;
@@ -127,73 +131,87 @@ ul a{
   justify-content: center;
   gap: 5rem;
 }
-.naturalHeading{
+
+.naturalHeading {
   height: 40%;
   width: 90%;
 }
-.naturalHeading h1{
+
+.naturalHeading h1 {
   font-size: 5rem;
   color: hsla(0, 0%, 100%, 0.75);
 }
-.naturalHeading p{
+
+.naturalHeading p {
   font-size: 1rem;
   color: hsla(0, 0%, 100%, 0.75);
 }
-.exploreDiv{
+
+.exploreDiv {
   gap: 2rem;
   margin-top: 1.6rem;
 }
-.exploreDiv i{
+
+.exploreDiv i {
   font-size: 2.8rem;
   color: rgba(255, 255, 255, 0.75);
 }
-.exploreDiv p{
+
+.exploreDiv p {
   color: hsla(0, 0%, 100%, 0.75);
-  font-size:.8rem;
+  font-size: .8rem;
 }
-.demoDiv{
+
+.demoDiv {
   gap: .8rem;
 }
-.ownerDiv{
+
+.ownerDiv {
   border: 2px solid hsla(0, 0%, 100%, 0.3);
-  background: linear-gradient(hsla(120, 100%, 25%, 0.1),hsla(120, 100%, 25%, 0));
+  background: linear-gradient(hsla(120, 100%, 25%, 0.1), hsla(120, 100%, 25%, 0));
   backdrop-filter: blur(20px);
   border-radius: 2.5rem;
   width: 50%;
   height: 25%;
 }
-.ownerDiv > :nth-child(2){
+
+.ownerDiv> :nth-child(2) {
   margin-left: 1.8rem;
   font-size: 1rem;
   color: hsla(0, 0%, 100%, 0.75);
 }
-.ratingDiv{
+
+.ratingDiv {
   height: 40%;
   width: 80%;
   gap: 1.4rem;
-  margin: 1.2rem 1.8rem ;
+  margin: 1.2rem 1.8rem;
 }
-.ratingDiv img{
+
+.ratingDiv img {
   height: 100%;
   border-radius: 50%;
 }
-.starDiv p{
+
+.starDiv p {
   color: #ffff;
   font-size: 1.1rem;
   margin-bottom: .4rem;
 }
-.starDiv i{
+
+.starDiv i {
   font-size: .85rem;
   color: #FFF84E;
 }
 
-.bannerPage aside{
+.bannerPage aside {
   /* background-color: gray; */
   width: 40%;
   height: 100%;
   position: relative;
 }
-.asideCard{
+
+.asideCard {
   background-color: hsla(0, 0%, 100%, 0.05);
   backdrop-filter: blur(20px);
   height: 24rem;
@@ -204,60 +222,110 @@ ul a{
   border: 2px solid hsla(0, 0%, 100%, 0.3);
   border-radius: 4rem;
 }
-.asideCard img{
+
+.asideCard img {
   height: 100%;
   width: 95%;
   object-fit: contain;
   position: absolute;
   top: -38%;
 }
-.asideCard p,.asideCard h1,.asideCard button{
+
+.asideCard p,
+.asideCard h1,
+.asideCard button {
   margin-left: 3rem;
   margin-bottom: .6rem;
 }
-.asideCard p{
+
+.asideCard p {
   margin-top: 68%;
   color: hsla(0, 0%, 100%, 0.75);
   font-size: .8rem;
 }
-.asideCard h1{
+
+.asideCard h1 {
   color: hsla(0, 0%, 100%, 0.75);
   font-size: 1.4rem;
 }
-.asideCard i{
+
+.asideCard i {
   margin-left: 4rem;
   font-size: 1.1rem;
   cursor: pointer;
 }
-.dotDiv{
+
+.dotDiv {
   width: 25%;
   margin: auto;
   justify-content: space-around;
 }
 
-.dotDiv h4{
+.dotDiv h4 {
   font-size: 1.5rem;
   color: #ffff;
   cursor: pointer;
 }
 
 /* FOOTER SECTOIN */
-.bannerPage footer{
+.bannerPage footer {
   /* background-color: aquamarine; */
-  height: 41.2%;
+  height: 47%;
   flex-direction: column;
-  gap: 2rem;
+  gap: 3rem;
 }
-.bannerPage footer h1{
+
+.bannerPage footer h1 {
   font-size: 3rem;
   color: #ffff;
-
 }
-.footerDiv{
-  background-color: magenta;
-  height: 40%;
-  width: 90%;
-}
-.footerDiv1{
 
+.footerDiv {
+  height: 39%;
+  width: 80%;
+  border: 2px solid hsla(0, 0%, 100%, 0.5);
+  border-radius: 5rem;
+  position: relative;
+}
+
+.imgDiv {
+  /* background-color: yellowgreen; */
+  width: 50%;
+  height: 100%;
+}
+
+.imgDiv img {
+  height: 25rem;
+  width: 24rem;
+  position: absolute;
+  top: -50%;
+  object-fit: cover;
+}
+
+.imgDiv1 img {
+  left: 5%;
+}
+
+.trendingDiv {
+  width: 50%;
+}
+
+
+
+.imgDiv2 img {
+  right: 5%;
+}
+
+.footertxtDiv{
+  /* background-color: #FFF84E; */
+  height: 100%;
+  width: 50%;
+}
+.footertxtDiv h3{
+  color: #ffff;
+  font-size: 2rem;
+}
+
+.footerDiv2 .footertxtDiv{
+  margin-left: 3rem;
 }
