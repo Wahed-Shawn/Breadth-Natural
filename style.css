@@ -286,6 +286,7 @@ ul a {
   border: 2px solid hsla(0, 0%, 100%, 0.5);
   border-radius: 5rem;
   position: relative;
+  backdrop-filter: blur(5px);
 }
 
 .imgDiv {
@@ -303,7 +304,7 @@ ul a {
 }
 
 .imgDiv1 img {
-  left: 5%;
+  left: 4%;
 }
 
 .trendingDiv {
@@ -313,19 +314,43 @@ ul a {
 
 
 .imgDiv2 img {
-  right: 5%;
+  right: 4%;
 }
 
 .footertxtDiv{
   /* background-color: #FFF84E; */
   height: 100%;
   width: 50%;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
 }
 .footertxtDiv h3{
   color: #ffff;
+  word-spacing: .4rem;
   font-size: 2rem;
+}
+.footertxtDiv > :nth-child(3){
+  margin-bottom: .7rem;
+}
+.footerDiv p{
+  font-size: .8rem;
+  color: #ffff;
+  margin: .4em 0;
 }
 
 .footerDiv2 .footertxtDiv{
   margin-left: 3rem;
+}
+
+.btnDiv{
+  width: 45%;
+  gap: 1rem;
+}
+.bagBtn{
+  padding: .5rem;
+  z-index: 1;
+}
+.btn i{
+  font-size: 1.8rem;
 }
